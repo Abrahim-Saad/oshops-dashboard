@@ -15,7 +15,7 @@ function logIn() {
             if(json.status == 200) {
                 error = ``;
                 localStorage.setItem("token", json.token)
-                window.location.href = "./home.html";
+                window.location.href = "https://oshops-dashboard.herokuapp.com/home.html";
             }
             else {
                 error = `<div id="error" class="alert alert-danger my-2 d-block">${json.message}</div>`
