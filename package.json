@@ -1,5 +1,11 @@
 {
+  "name": "oshops-dashboard",
+  "version": "1.0.0",
+  "description": "This will load any static html site",
+  "scripts": {
+    "start": "harp server --port $PORT"
+  },
   "dependencies": {
-    "gatsby": "^2.13.23"
+    "harp": "*"
   }
 }
